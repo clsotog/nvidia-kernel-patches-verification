@@ -151,6 +151,10 @@ e659fc8e537c | firmware: arm_ffa: Register core as a platform driver
 101f3498b4bd | sched/fair: Revert 6d71a9c61604 ("sched/fair: Fix EEVDF entity placement bug causing scheduling lag")
 556146ce5e94 | sched/fair: Avoid overflow in enqueue_entity()
 b6eee96843e8 | sched/fair: Fix overflow in vruntime_eligible()
+5b94c94caafc | spi: tegra210-quad: Fix false positive WARN on interrupt timeout with transfer complete
+e329b94b1e47 | spi: tegra210-quad: Convert to hard IRQ with high-priority workqueue
+1ff82c13ea94 | spi: tegra210-quad: Cache TRANS_STATUS in ISR for timeout handler
+252ee24aff97 | spi: tegra210-quad: Process small PIO transfers in hard IRQ context
 
 
 # Bare Metal Support: Performance
